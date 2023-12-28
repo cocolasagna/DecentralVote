@@ -38,7 +38,7 @@ const VotersList = (props) => {
     fetchData();
   }, []);
 
-  let content = <p>No Data Found</p>;
+  let content = <p>Data Not Found</p>;
 
   if (votersList.length > 0) {
     content = votersList.map((item) => {
